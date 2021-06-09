@@ -43,22 +43,16 @@ const SidebarContent = () => {
                 </Text>
 
                 <Stack spacing={2} mt={2} align="stretch">
-                    <SidebarNavLink key={"/dashboard"} href={"/dashboard"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Dashboard</Text>
-                        </HStack>
-                    </SidebarNavLink>
                     <SidebarNavLink key={"/"} href={"/"}>
                         <HStack>
                             <Icon as={FaComment} fontSize="18" />
                             <Text fontWeight="medium">Home</Text>
                         </HStack>
                     </SidebarNavLink>
-                    <SidebarNavLink key={"/settings"} href={"/settings"}>
+                    <SidebarNavLink key={"/about"} href={"/about"}>
                         <HStack>
                             <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Settings</Text>
+                            <Text fontWeight="medium">About</Text>
                         </HStack>
                     </SidebarNavLink>
                 </Stack>
@@ -69,236 +63,20 @@ const SidebarContent = () => {
                     color={useColorModeValue("gray.500", "gray.400")}
                     fontSize="small"
                 >
-                    MAIN
+                    NAVIGATION
                 </Text>
 
                 <Stack spacing={2} mt={2} align="stretch">
-                    <SidebarNavLink key={"/dashboard"} href={"/dashboard"}>
+                    <SidebarNavLink key={"/about"} href={"/about"}>
                         <HStack>
                             <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Dashboard</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/"} href={"/"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Home</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/classes"} href={"/classes"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Classes</Text>
+                            <Text fontWeight="medium">About</Text>
                         </HStack>
                     </SidebarNavLink>
-                </Stack>
-            </Box>{" "}
-            <Box>
-                <Text
-                    fontWeight="bold"
-                    color={useColorModeValue("gray.500", "gray.400")}
-                    fontSize="small"
-                >
-                    MAIN
-                </Text>
-
-                <Stack spacing={2} mt={2} align="stretch">
-                    <SidebarNavLink key={"/dashboard"} href={"/dashboard"}>
+                    <SidebarNavLink key={"/settings"} href={"/settings"}>
                         <HStack>
                             <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Dashboard</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/"} href={"/"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Home</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/classes"} href={"/classes"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Classes</Text>
-                        </HStack>
-                    </SidebarNavLink>
-                </Stack>
-            </Box>{" "}
-            <Box>
-                <Text
-                    fontWeight="bold"
-                    color={useColorModeValue("gray.500", "gray.400")}
-                    fontSize="small"
-                >
-                    MAIN
-                </Text>
-
-                <Stack spacing={2} mt={2} align="stretch">
-                    <SidebarNavLink key={"/dashboard"} href={"/dashboard"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Dashboard</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/"} href={"/"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Home</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/classes"} href={"/classes"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Classes</Text>
-                        </HStack>
-                    </SidebarNavLink>
-                </Stack>
-            </Box>{" "}
-            <Box>
-                <Text
-                    fontWeight="bold"
-                    color={useColorModeValue("gray.500", "gray.400")}
-                    fontSize="small"
-                >
-                    MAIN
-                </Text>
-
-                <Stack spacing={2} mt={2} align="stretch">
-                    <SidebarNavLink key={"/dashboard"} href={"/dashboard"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Dashboard</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/"} href={"/"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Home</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/classes"} href={"/classes"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Classes</Text>
-                        </HStack>
-                    </SidebarNavLink>
-                </Stack>
-            </Box>{" "}
-            <Box>
-                <Text
-                    fontWeight="bold"
-                    color={useColorModeValue("gray.500", "gray.400")}
-                    fontSize="small"
-                >
-                    MAIN
-                </Text>
-
-                <Stack spacing={2} mt={2} align="stretch">
-                    <SidebarNavLink key={"/dashboard"} href={"/dashboard"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Dashboard</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/"} href={"/"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Home</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/classes"} href={"/classes"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Classes</Text>
-                        </HStack>
-                    </SidebarNavLink>
-                </Stack>
-            </Box>{" "}
-            <Box>
-                <Text
-                    fontWeight="bold"
-                    color={useColorModeValue("gray.500", "gray.400")}
-                    fontSize="small"
-                >
-                    MAIN
-                </Text>
-
-                <Stack spacing={2} mt={2} align="stretch">
-                    <SidebarNavLink key={"/dashboard"} href={"/dashboard"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Dashboard</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/"} href={"/"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Home</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/classes"} href={"/classes"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Classes</Text>
-                        </HStack>
-                    </SidebarNavLink>
-                </Stack>
-            </Box>{" "}
-            <Box>
-                <Text
-                    fontWeight="bold"
-                    color={useColorModeValue("gray.500", "gray.400")}
-                    fontSize="small"
-                >
-                    MAIN
-                </Text>
-
-                <Stack spacing={2} mt={2} align="stretch">
-                    <SidebarNavLink key={"/dashboard"} href={"/dashboard"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Dashboard</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/"} href={"/"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Home</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/classes"} href={"/classes"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Classes</Text>
-                        </HStack>
-                    </SidebarNavLink>
-                </Stack>
-            </Box>{" "}
-            <Box>
-                <Text
-                    fontWeight="bold"
-                    color={useColorModeValue("gray.500", "gray.400")}
-                    fontSize="small"
-                >
-                    MAIN
-                </Text>
-
-                <Stack spacing={2} mt={2} align="stretch">
-                    <SidebarNavLink key={"/dashboard"} href={"/dashboard"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Dashboard</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/"} href={"/"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Home</Text>
-                        </HStack>
-                    </SidebarNavLink>{" "}
-                    <SidebarNavLink key={"/classes"} href={"/classes"}>
-                        <HStack>
-                            <Icon as={FaComment} fontSize="18" />
-                            <Text fontWeight="medium">Classes</Text>
+                            <Text fontWeight="medium">Settings</Text>
                         </HStack>
                     </SidebarNavLink>
                 </Stack>

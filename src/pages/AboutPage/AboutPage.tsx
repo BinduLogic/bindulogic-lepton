@@ -1,17 +1,18 @@
 import { Text } from "@chakra-ui/layout";
 import React from "react";
-import Navbar from "../../components/Navbar";
 import PageContainer from "../../components/PageContainer";
 import PageHeader from "../../components/PageHeader";
+import Sidebar from "../../components/Sidebar";
 
 const AboutPage = () => {
     return (
         <>
-            <Navbar />
-            <PageContainer>
-                <PageHeader>About This Bootstrap</PageHeader>
-                <Text>Find out in the repository.</Text>
-            </PageContainer>
+            <Sidebar>
+                <PageContainer>
+                    <PageHeader>About This Bootstrap</PageHeader>
+                    <Text>Find out in the repository.</Text>
+                </PageContainer>
+            </Sidebar>
         </>
     );
 };

@@ -19,7 +19,6 @@ import SidebarContent from "./SidebarContent";
 
 const Sidebar = (props: any) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
-    const EnclosedPage: React.ReactElement = props.page;
 
     const CrossIcon = (
         <Center h="100%" w="100%">
@@ -41,7 +40,7 @@ const Sidebar = (props: any) => {
     const DrawerMode = (
         <Box>
             <Box w="100%" h="100%">
-                {EnclosedPage}
+                {props.children}
             </Box>
             <Drawer placement="left" isOpen={isOpen} onClose={onClose}>
                 <DrawerOverlay>
@@ -75,7 +74,7 @@ const Sidebar = (props: any) => {
                 <SidebarContent />
             </Box>
             <Box w="100%" h="100%">
-                {EnclosedPage}
+                {props.children}
             </Box>
         </HStack>
     );
